@@ -26,6 +26,7 @@ namespace youtubeDownloader
 
         //loaded user controls in mainform.
         StatusControl statusgroup;
+        UserControl _maincontrol;
 
         public Mainform()
         {
@@ -181,6 +182,21 @@ namespace youtubeDownloader
         private void playlistToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void configurationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this._maincontrol = new Configuration(pnl_form);
+            pnl_form.Controls.Add(this._maincontrol);
+        }
+
+        private void pnl_form_ControlRemoved(object sender, ControlEventArgs e)
+        {
+            if (pnl_form.Controls.Count == 0)
+            {
+                Start s = new Start();
+                pnl_form.Controls.Add(s);
+            }
         }
     }
 }

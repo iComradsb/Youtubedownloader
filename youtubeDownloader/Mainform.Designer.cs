@@ -45,6 +45,7 @@
             this.downloadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.singleVideoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.playlistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configurationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -146,6 +147,7 @@
             this.pnl_form.Name = "pnl_form";
             this.pnl_form.Size = new System.Drawing.Size(706, 445);
             this.pnl_form.TabIndex = 12;
+            this.pnl_form.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.pnl_form_ControlRemoved);
             // 
             // menuStrip1
             // 
@@ -160,7 +162,8 @@
             // startToolStripMenuItem
             // 
             this.startToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.downloadToolStripMenuItem});
+            this.downloadToolStripMenuItem,
+            this.configurationToolStripMenuItem});
             this.startToolStripMenuItem.Name = "startToolStripMenuItem";
             this.startToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.startToolStripMenuItem.Text = "Start";
@@ -171,7 +174,7 @@
             this.singleVideoToolStripMenuItem,
             this.playlistToolStripMenuItem});
             this.downloadToolStripMenuItem.Name = "downloadToolStripMenuItem";
-            this.downloadToolStripMenuItem.Size = new System.Drawing.Size(128, 22);
+            this.downloadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.downloadToolStripMenuItem.Text = "Download";
             // 
             // singleVideoToolStripMenuItem
@@ -187,6 +190,13 @@
             this.playlistToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.playlistToolStripMenuItem.Text = "Playlist";
             this.playlistToolStripMenuItem.Click += new System.EventHandler(this.playlistToolStripMenuItem_Click);
+            // 
+            // configurationToolStripMenuItem
+            // 
+            this.configurationToolStripMenuItem.Name = "configurationToolStripMenuItem";
+            this.configurationToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.configurationToolStripMenuItem.Text = "Configuration";
+            this.configurationToolStripMenuItem.Click += new System.EventHandler(this.configurationToolStripMenuItem_Click);
             // 
             // Mainform
             // 
@@ -235,6 +245,7 @@
         private System.Windows.Forms.ToolStripMenuItem downloadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem singleVideoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem playlistToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configurationToolStripMenuItem;
     }
 }
 

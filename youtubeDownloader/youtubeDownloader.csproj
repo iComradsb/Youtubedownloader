@@ -67,6 +67,18 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Classes\urlParser.cs" />
+    <Compile Include="UserControls\Configuration.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Configuration.Designer.cs">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Start.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Start.Designer.cs">
+      <DependentUpon>Start.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\StatusControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -84,7 +96,14 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UserControls\Configuration.resx">
+      <DependentUpon>Configuration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Start.resx">
+      <DependentUpon>Start.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\StatusControl.resx">
       <DependentUpon>StatusControl.cs</DependentUpon>
     </EmbeddedResource>
