@@ -38,7 +38,7 @@
             // 
             this.txt_selechted_path.Location = new System.Drawing.Point(25, 72);
             this.txt_selechted_path.Name = "txt_selechted_path";
-            this.txt_selechted_path.Size = new System.Drawing.Size(477, 20);
+            this.txt_selechted_path.Size = new System.Drawing.Size(393, 20);
             this.txt_selechted_path.TabIndex = 0;
             // 
             // btn_savePath
@@ -53,7 +53,7 @@
             // 
             // btn_pickpath
             // 
-            this.btn_pickpath.Location = new System.Drawing.Point(508, 70);
+            this.btn_pickpath.Location = new System.Drawing.Point(424, 70);
             this.btn_pickpath.Name = "btn_pickpath";
             this.btn_pickpath.Size = new System.Drawing.Size(113, 23);
             this.btn_pickpath.TabIndex = 2;
@@ -79,7 +79,7 @@
             this.Controls.Add(this.btn_savePath);
             this.Controls.Add(this.txt_selechted_path);
             this.Name = "Configuration";
-            this.Size = new System.Drawing.Size(706, 445);
+            this.Size = new System.Drawing.Size(540, 445);
             this.ResumeLayout(false);
             this.PerformLayout();
 

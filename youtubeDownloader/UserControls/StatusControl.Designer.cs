@@ -38,7 +38,7 @@
             // 
             this.bar_download.Location = new System.Drawing.Point(3, 64);
             this.bar_download.Name = "bar_download";
-            this.bar_download.Size = new System.Drawing.Size(700, 23);
+            this.bar_download.Size = new System.Drawing.Size(534, 23);
             this.bar_download.TabIndex = 11;
             // 
             // lbl_statusControl_remain
@@ -46,27 +46,24 @@
             this.lbl_statusControl_remain.AutoSize = true;
             this.lbl_statusControl_remain.Location = new System.Drawing.Point(17, 30);
             this.lbl_statusControl_remain.Name = "lbl_statusControl_remain";
-            this.lbl_statusControl_remain.Size = new System.Drawing.Size(35, 13);
+            this.lbl_statusControl_remain.Size = new System.Drawing.Size(0, 13);
             this.lbl_statusControl_remain.TabIndex = 12;
-            this.lbl_statusControl_remain.Text = "label1";
             // 
             // lbl_statusControl_complete
             // 
             this.lbl_statusControl_complete.AutoSize = true;
             this.lbl_statusControl_complete.Location = new System.Drawing.Point(17, 46);
             this.lbl_statusControl_complete.Name = "lbl_statusControl_complete";
-            this.lbl_statusControl_complete.Size = new System.Drawing.Size(35, 13);
+            this.lbl_statusControl_complete.Size = new System.Drawing.Size(0, 13);
             this.lbl_statusControl_complete.TabIndex = 13;
-            this.lbl_statusControl_complete.Text = "label2";
             // 
             // lbl_statusControl_thread
             // 
             this.lbl_statusControl_thread.AutoSize = true;
             this.lbl_statusControl_thread.Location = new System.Drawing.Point(17, 12);
             this.lbl_statusControl_thread.Name = "lbl_statusControl_thread";
-            this.lbl_statusControl_thread.Size = new System.Drawing.Size(35, 13);
+            this.lbl_statusControl_thread.Size = new System.Drawing.Size(0, 13);
             this.lbl_statusControl_thread.TabIndex = 14;
-            this.lbl_statusControl_thread.Text = "label1";
             // 
             // StatusControl
             // 
@@ -77,7 +74,7 @@
             this.Controls.Add(this.lbl_statusControl_remain);
             this.Controls.Add(this.bar_download);
             this.Name = "StatusControl";
-            this.Size = new System.Drawing.Size(706, 100);
+            this.Size = new System.Drawing.Size(540, 100);
             this.Load += new System.EventHandler(this.StatusControl_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

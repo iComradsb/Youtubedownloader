@@ -34,7 +34,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(295, 159);
+            this.label1.Location = new System.Drawing.Point(231, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Name = "Start";
-            this.Size = new System.Drawing.Size(706, 445);
+            this.Size = new System.Drawing.Size(540, 445);
             this.ResumeLayout(false);
             this.PerformLayout();
 
